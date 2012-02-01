@@ -1,0 +1,11 @@
+<h1>Remote API call</h1>
+<p class="align-right"><%= link_to({:action => :remote, :format => :json}, {:id => "requester", :class => "btn btn-primary", :remote => true, "data-order" => ""}) do %><i class="icon-share icon-white"></i> Remote API call<% end %>
+
+<div id="requests"></div>
+
+<h1>Sorting test</h1>
+<p class="align-right"><%= link_to({:action => :sort, :format => :json}, {:id => "sorter", :class => "btn btn-primary", :remote => true, "data-order" => ""}) do %><i class="icon-arrow-down icon-white"></i> Sort people<% end %>
+
+<div id="records">
+	<%= render :partial => "records.html", :locals => {:records => @people} %>
+</div>

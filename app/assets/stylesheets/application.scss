@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.align-right{
+	text-align: right;
+}
+
+#loading{
+	width: 300px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -150px;
+	text-align: center;
+}
+
+#people{
+	td:nth-child(1){
+		width: 40px;
+	}
+}
+
+#people-loading{
+	text-align: center;
+}

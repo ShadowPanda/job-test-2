@@ -1,0 +1,16 @@
+<table id="people" class="table table-bordered table-zebra-striped">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>Name</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% records.each_with_index do |person, index| %>
+			<tr>
+				<td><%= index + 1 %></td>
+				<td><%= person.name %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
