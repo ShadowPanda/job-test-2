@@ -5,7 +5,7 @@ gem "jquery-rails"
 gem "compass"
 gem "rest-client"
 gem "builder"
-gem "thin"
+gem "unicorn"
 
 group :development, :test do
   gem "sqlite3-ruby", "~> 1.3.0", :require => "sqlite3"

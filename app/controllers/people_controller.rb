@@ -20,9 +20,7 @@ class PeopleController < ApplicationController
 	def remote
 		rv = { :status => 200, :success => false, :output => "" }
 
-		uri = url_for((Rails.env == :development) ? {:action => :input, :port => 3001} : {:action => :input})
-		res = RestClient.post(uri, :mail => {"key" => "value"}.to_json)
-
+		res = RestClient.post(url_for({:action => :input}), :mail => {"key" => "value"}.to_json)
 		rv[:output] = res.body
 		
 		begin
