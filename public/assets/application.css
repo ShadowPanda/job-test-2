@@ -1,3 +1,5 @@
+.navbar-inner { border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px; }
+
 .align-right { text-align: right; }
 
 #loading { width: 300px; position: absolute; top: 20px; left: 50%; margin-left: -150px; text-align: center; }
@@ -5,3 +7,5 @@
 #people td:nth-child(1) { width: 40px; }
 
 #people-loading { text-align: center; }
+
+.forker { display: block; position: absolute; top: 0; right: 0; border: 0; }

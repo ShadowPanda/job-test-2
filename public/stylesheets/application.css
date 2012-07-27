@@ -1,9 +1,16 @@
-/* line 3, ../../app/assets/stylesheets/application.scss */
+/* line 1, ../../app/assets/stylesheets/application.scss */
+.navbar-inner {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+/* line 9, ../../app/assets/stylesheets/application.scss */
 .align-right {
   text-align: right;
 }
 
-/* line 7, ../../app/assets/stylesheets/application.scss */
+/* line 13, ../../app/assets/stylesheets/application.scss */
 #loading {
   width: 300px;
   position: absolute;
@@ -13,12 +20,21 @@
   text-align: center;
 }
 
-/* line 17, ../../app/assets/stylesheets/application.scss */
+/* line 23, ../../app/assets/stylesheets/application.scss */
 #people td:nth-child(1) {
   width: 40px;
 }
 
-/* line 22, ../../app/assets/stylesheets/application.scss */
+/* line 28, ../../app/assets/stylesheets/application.scss */
 #people-loading {
   text-align: center;
+}
+
+/* line 32, ../../app/assets/stylesheets/application.scss */
+.forker {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
 }

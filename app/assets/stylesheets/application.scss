@@ -1,3 +1,9 @@
+.navbar-inner{
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+
 @charset "utf-8";
 
 .align-right{
@@ -21,4 +27,12 @@
 
 #people-loading{
 	text-align: center;
+}
+
+.forker{
+	display: block;
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border: 0;
 }
