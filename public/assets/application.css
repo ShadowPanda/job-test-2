@@ -8,4 +8,4 @@
 
 #people-loading { text-align: center; }
 
-.forker { display: block; position: absolute; top: 0; right: 0; border: 0; }
+.forker { display: block; position: absolute; top: 0; right: 0; border: 0; z-index: 1031; }
